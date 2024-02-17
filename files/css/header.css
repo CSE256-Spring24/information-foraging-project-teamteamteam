@@ -118,9 +118,14 @@ header a {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    min-width: 160px;
+    min-width: 250px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
+}
+.dropdown-content h3{
+    margin-left: 16px;
+    margin-top: 13px;
+    color: #21255b;
 }
 
 
