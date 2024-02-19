@@ -41,3 +41,15 @@ ul {
 .inner-ul {
     margin-left: 40px;
 }
+
+#value-btn {
+    color: #a51417;
+    border: #a51417;
+    border-width: 2px;
+    border-radius: 6px;
+    border-style: solid;
+    font-size: 1rem;
+    line-height: 1.1;
+    padding: 8px 20px;
+    text-decoration: none;
+}
