@@ -24,3 +24,13 @@ main li {
 .classroom p {
     font-size: 1.15em;
 }
+
+#curriculum-container {
+
+    margin-left: 40px;
+
+}
+
+.inner-ul {
+    margin-left: 40px;
+}
