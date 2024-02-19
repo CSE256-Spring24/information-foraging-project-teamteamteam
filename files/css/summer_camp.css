@@ -2,3 +2,41 @@
 .image-container {
     background-image: url("https://nurseryschool.wustl.edu/files/2015/03/group-holi.jpg");
 }
+
+main {
+    width: 60%;
+    margin: auto;
+    padding: 3em 0;
+}
+
+main > * {
+    margin-bottom: 5em;
+}
+
+#summer-intro {
+    margin: auto; 
+    text-align: center;
+
+}
+
+.summer-box {
+    background-color: rgb(221, 221, 221);
+    border-radius: 10px;
+    padding: 20px;
+    /* min-width: 20%; */
+    margin: 1em 0;
+}
+
+#summer-session-1, #summer-session-2 {
+    width: 49%;
+
+}
+
+#summer-info-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+#session-detailed-tuition {
+    text-align: center;
+}
