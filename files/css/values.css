@@ -1,0 +1,33 @@
+@import url("common.css");
+@import url("staff_entry.css");
+@import url("side_menu.css");
+
+main {
+    width: 50%;
+    margin: auto;
+    margin-left: 10%;
+    margin-top: 5em;
+}
+
+ul {
+    width: 80%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+#value-btn {
+    color: #a51417;
+    border: #a51417;
+    border-width: 2px;
+    border-radius: 6px;
+    border-style: solid;
+    font-size: 1rem;
+    line-height: 1.1;
+    padding: 8px 20px;
+    text-decoration: none;
+}
+
+#curriculum-details {
+    padding-top: 40px;
+    height: 20em;
+}

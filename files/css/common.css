@@ -45,9 +45,9 @@ main h1 {
 
 main h2 {
     color: rgb(85, 85, 85);
-    font-size: 27.648px;
+    font-size: 36px;
     font-weight: 300;
-    line-height: 36.8548px;
+    line-height: 42px;
     margin-bottom: 24px;
 }
 
@@ -56,6 +56,7 @@ main h3 {
     font-size: 27px;
     font-weight: 300;
     line-height: 37px;
+    margin-bottom: 20px;
 }
 
 main p a,
