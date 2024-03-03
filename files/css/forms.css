@@ -23,3 +23,22 @@ main li {
 }
 
 
+.discipline-box {
+    background-color: rgb(221, 221, 221);
+    border-radius: 10px;
+    padding: 40px;
+    /* min-width: 20%; */
+    margin: 1em 0;
+}
+
+#value-btn {
+    color: #a51417;
+    border: #a51417;
+    border-width: 2px;
+    border-radius: 6px;
+    border-style: solid;
+    font-size: 1rem;
+    line-height: 1.1;
+    padding: 8px 20px;
+    text-decoration: none;
+}
