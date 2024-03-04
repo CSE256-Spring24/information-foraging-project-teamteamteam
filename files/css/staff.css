@@ -1,3 +1,21 @@
 @import url("common.css");
 @import url("staff_entry.css");
 @import url("side_menu.css");
+
+.staff-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Adjust the number of columns as needed */
+    gap: 20px; /* Adjust the gap between grid items */
+}
+
+.individual-staff-member img {
+    width: 60%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 1em;
+}
+
+/* .staff-qualifications {
+    font-size: 16px;
+} */
+
