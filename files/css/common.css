@@ -98,3 +98,26 @@ main h4 a {
     background-color: #a51417;
     text-align: center;
 }
+
+.main-btn {
+    color: #a51417;
+    border: #a51417;
+    border-width: 2px;
+    border-radius: 6px;
+    border-style: solid;
+    font-size: 1rem;
+    line-height: 1.1;
+    padding: 8px 20px;
+    text-decoration: none;
+    /* margin: 10em 0; */
+}
+
+.btn-container {
+    margin: 2em 0;
+    display: flex;
+    justify-content: center;
+}
+
+.center-text {
+    text-align: center;
+}
