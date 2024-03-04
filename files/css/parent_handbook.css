@@ -1,5 +1,7 @@
 @import url("common.css");
 @import url("side_menu.css");
+@import url("accordian.css");
+
 
 
 #value-btn {
@@ -13,6 +15,7 @@
     padding: 8px 20px;
     text-decoration: none;
 }
+
 
 
 .discipline-box {
