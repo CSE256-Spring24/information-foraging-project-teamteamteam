@@ -31,6 +31,28 @@ main li {
     margin: 1em 0;
 }
 
+.acceptance-box {
+    background-color: rgb(165,20,23);
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    /* min-width: 20%; */
+    margin: 1em 0;
+}
+
+.acceptance-text {
+    color: white;
+    
+}
+
+#acceptance-text-header {
+    font-size: 25px;
+}
+
+strong {
+    font-style: italic;
+}
+
 #value-btn {
     color: #a51417;
     border: #a51417;
