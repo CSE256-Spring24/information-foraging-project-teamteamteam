@@ -15,6 +15,17 @@ header {
     background-color: #3d3d3d;
 }
 
+ul{
+    list-style: none;
+}
+
+
+ /* ATTEMPT AT TWO COLUMNS IN DROPDWON*/
+.column2{
+    float: right;
+    top:0;
+    list-style: none;
+}
 .container {
     width: 92%;
     max-width: 71em;
@@ -118,7 +129,7 @@ header a {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    min-width: 250px;
+    min-width: 900px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
