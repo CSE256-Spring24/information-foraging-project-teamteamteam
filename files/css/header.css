@@ -91,6 +91,12 @@ header a {
 .dropdown {
     float: left;
     overflow: hidden;
+    padding-left: 20px;
+  
+}
+h3{
+    margin-top: 20px;
+    color: #a51417;
 }
 
 
@@ -129,10 +135,24 @@ header a {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    min-width: 900px;
+    min-width: 260px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
+    opacity: 0;
 }
+
+
+.wide{
+    min-width: 1000px;
+    display: flex;
+}
+
+.column2{
+    float: right;
+    margin-left: 80px;
+}
+
+
 .dropdown-content h3{
     margin-left: 16px;
     margin-top: 13px;
@@ -163,4 +183,13 @@ header a {
 
 .dropdown:hover .dropdown-content {
     display: block;
+    opacity: 100;
 }
+
+
+
+.dropdown:hover .wide {
+    display: flex;
+    opacity: 100;
+}
+
