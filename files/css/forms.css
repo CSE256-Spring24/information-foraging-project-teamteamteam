@@ -47,6 +47,7 @@ main li {
 
 #acceptance-text-header {
     font-size: 25px;
+    text-align: center;
 }
 
 strong {
@@ -67,4 +68,10 @@ strong {
 
 .download{
     color: rgb(75, 75, 75);
+}
+
+.details-header {
+    
+    margin:10px;
+    
 }
