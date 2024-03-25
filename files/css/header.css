@@ -190,6 +190,7 @@ h3{
 
 .row {
     display: flex;
+    padding: 1em;
     /* opacity: 100; */
 }
 
