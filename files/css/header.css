@@ -188,8 +188,9 @@ h3{
 
 
 
-.dropdown:hover .wide {
+.row {
     display: flex;
-    opacity: 100;
+    padding: 1em;
+    /* opacity: 100; */
 }
 
