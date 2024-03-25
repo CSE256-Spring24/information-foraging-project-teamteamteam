@@ -22,6 +22,9 @@
     line-height: 23px;
     margin-bottom: 1em;
 }
+.space{
+    margin-top:40px;
+}
 
 #small-image-collection {
     overflow: auto;
