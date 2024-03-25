@@ -84,3 +84,52 @@ main li {
 #class-schedule td {
     border: 1px solid #ddd;
 }
+
+/* additional */
+/* 
+.main-btn {
+    margin: 0 auto;
+    text-align: center;
+} */
+
+
+
+.flex {
+    display: flex;
+    /* margin: auto 0; */
+    text-align: center;
+    gap: 20px;
+}
+
+.event-svg {
+    width: 60px;
+    height: 60px;
+    margin-left: 35%;
+    fill: #a51417;
+}
+
+.class-events {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Adjust the number of columns as needed */
+    gap: 20px; /* Adjust the gap between grid items */
+    margin-bottom: 4em;
+    
+}
+
+.class-event {
+    display: inline-block;
+    border: #a51417 1px solid;
+    border-radius: 10px;
+    padding: 2em;
+    color: #a51417;
+}
+
+.class-event > * {
+    margin-bottom: 1em;
+    /* color: #a51417; */
+}
+
+.category {
+    font-size: .9em;
+    text-transform: capitalize;
+}
